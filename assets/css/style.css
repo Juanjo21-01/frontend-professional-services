@@ -1,10 +1,84 @@
 /* ------- CUSTOM PROPERTIES ------- */
+:root {
+    --first-color: rgb(217, 0, 98);
+    --first-alpha-color: rgb(217, 0, 98, 0.75);
+    --second-color: rgb(20, 25, 45);
+    --second-alpha-color: rgb(20, 25, 45, 0.75);
+    --third-color: rgb(80, 20, 100);
+    --third-alpha-color: rgb(80, 20, 100, 0.75);
 
+    --link-color: rgb(80, 158, 227);
+    --link-alpha-color: rgb(80, 158, 227, 0.75);
+
+    --bg-color: rgb(245, 245, 245);
+    --bg-alpha-color: rgb(245, 245, 245, 0.75);
+}
 
 /* ------- RESETS STYLES ------- */
-
+body {
+    font-family: 'Fira Code', monospace;
+}
 
 /* ------- Bootstrap STYLES ------- */
 
+/* ----- HEADER */
+
+.dropdown-item {
+    color: var(--first-alpha-color);
+    font-weight: bold;
+    transition: all 0.3s ease-out;
+}
+
+.dropdown-item:hover {
+    color: var(--thirt-alpha-color);
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 3rem;
+    width: auto;
+}
+
+.nav-item {
+    transition: all .3s ease-out;
+}
+
+.nav-item:hover {
+    background-color: var(--first-alpha-color);
+}
+
+.nav-link {
+    margin-left: 0.5rem;
+    color: var(--first-color);
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--bs-white);
+}
+
 
 /* ------- MY STYLES ------- */
+
+
+/* ------- MEDIA QUERIES ------- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nav-item:hover {
+        background-color: tr;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
