@@ -19,6 +19,15 @@ body {
     font-family: 'Fira Code', monospace;
 }
 
+a {
+    color: var(--link-color);
+    transition: all .3s ease-out;
+}
+
+a:hover {
+    color: var(--first-color);
+}
+
 /* ------- Bootstrap STYLES ------- */
 
 /* ----- HEADER */
@@ -57,6 +66,8 @@ body {
 .nav-link:hover {
     color: var(--bs-white);
 }
+
+/* ----- FOOTER */
 
 
 /* ------- MY STYLES ------- */
