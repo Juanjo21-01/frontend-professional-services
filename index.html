@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Icono -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/favicon.png" />
   </head>
 
   <body>
@@ -37,7 +37,127 @@
     <div data-include="assets/views/components/header.html"></div>
 
     <!-- CONTENT -->
-    <main id="root"></main>
+    <main class="pt-5 bg-gradient-gris">
+      <div class="container">
+        <!-- presentaciones -->
+        <section class="row text-primary-emphasis align-items-lg-center mb-5">
+          <article class="col-12 col-lg-5">
+            <h2>¿Necesitas un increíble sitio web?</h2>
+            <p class="fs-5">
+              Un sitio hermoso, moderno, responsivo y personalizado para tu
+              compañia, negocio, marca, servicio o producto.
+            </p>
+            <a href="#servicios" class="btn btn-success btn-lg fw-bold"
+              >Empecemos</a
+            >
+          </article>
+          <article class="col-12 col-lg-7">
+            <img
+              class="img-fluid"
+              src="assets/img/home-professional.png"
+              alt="¿Necesitas un increíble sitio web?"
+            />
+          </article>
+          <article class="col-12 col-lg-5 order-lg-1">
+            <h2>Sitios web responsivos</h2>
+            <p class="fs-5">
+              Es importante proporcionar a tus visitantes una experiencia web
+              óptima en dispositivos móviles. El diseño web responsivo significa
+              que tu sitio se adapta instantáneamente al dispositivo que el
+              visitante utiliza. ¡Mi trabajo es hacer, que la visita de tus
+              usuarios sea lo más agradable e intuitiva para ellos!
+            </p>
+          </article>
+          <article class="col-12 col-lg-7">
+            <img
+              class="img-fluid"
+              src="assets/img/home-professional2.png"
+              alt="Sitios web responsivos"
+            />
+          </article>
+        </section>
+
+        <!-- servicios -->
+        <section class="row min-vh-100 align-items-lg-center" id="servicios">
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="card shadow-lg mx-auto mb-3" style="width: 18rem">
+              <img
+                src="assets/img/home-sitio.jpg"
+                class="card-img-top"
+                alt="sitios"
+              />
+              <div class="card-body shadow">
+                <h5 class="card-title">Nuevo sitio web</h5>
+                <p class="card-text">
+                  ¿Necesitas un (nuevo) sitio web 100% responsivo?
+                </p>
+                <a
+                  href="assets/views/sitios.html"
+                  class="btn btn-dark btn-outline-warning border-0"
+                  >Más detalles <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="card shadow-lg mx-auto mb-3" style="width: 18rem">
+              <img
+                src="assets/img/home-clientes.jpg"
+                class="card-img-top"
+                alt="clientes"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clientes</h5>
+                <p class="card-text">Clientes felices y proyectos hermosos.</p>
+                <a
+                  href="assets/views/clientes.html"
+                  class="btn btn-warning btn-outline-dark border-0"
+                  >Más detalles <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="card shadow-lg mx-auto mb-3" style="width: 18rem">
+              <img
+                src="assets/img/home-flujo.jpg"
+                class="card-img-top"
+                alt="flujo"
+              />
+              <div class="card-body shadow">
+                <h5 class="card-title">Flujo de Trabajo</h5>
+                <p class="card-text">
+                  Escucho tus necesidades. Discutamos tu proyecto.
+                </p>
+                <a
+                  href="assets/views/comencemos.html"
+                  class="btn btn-dark btn-outline-warning border-0"
+                  >Más detalles <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="card shadow-lg mx-auto mb-3" style="width: 18rem">
+              <img
+                src="assets/img/home-contacto.jpg"
+                class="card-img-top"
+                alt="contacto"
+              />
+              <div class="card-body">
+                <h5 class="card-title">¿Interesado?</h5>
+                <p class="card-text">Comencemos con tu nuevo proyecto.</p>
+                <a
+                  href="assets/views/contacto.html"
+                  class="btn btn-warning btn-outline-dark border-0"
+                  >Más detalles <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
 
     <!-- FOOTER -->
     <div data-include="assets/views/components/footer.html"></div>
@@ -52,4 +172,3 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
- 

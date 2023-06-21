@@ -71,6 +71,11 @@ a:hover {
 
 
 /* ------- MY STYLES ------- */
+/* color de fondo */
+.bg-gradient-gris {
+    background-color: #8e9eab;
+    background-image: linear-gradient(to bottom, #8e9eab, #eef2f3);
+}
 
 
 /* ------- MEDIA QUERIES ------- */
