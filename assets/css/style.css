@@ -52,9 +52,9 @@ a:hover {
     transition: all .3s ease-out;
 }
 
-.nav-item:hover {
+/* .nav-item:hover {
     background-color: var(--first-alpha-color);
-}
+} */
 
 .nav-link {
     margin-left: 0.5rem;
@@ -100,6 +100,9 @@ a:hover {
     background-position: center;
 }
 
+.bg-second-alpha-color {
+    background-color: var(--second-alpha-color);
+}
 
 /* ------- MEDIA QUERIES ------- */
 
