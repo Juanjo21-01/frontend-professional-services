@@ -87,6 +87,8 @@ a:hover {
     background-color: var(--bg-alpha-color);
 }
 
+
+
 /* color de fondo */
 .bg-gradient-gris {
     background-color: #8e9eab;
@@ -102,6 +104,10 @@ a:hover {
 
 .bg-second-alpha-color {
     background-color: var(--second-alpha-color);
+}
+
+.text-first-color {
+    color: var(--first-color);
 }
 
 /* ------- MEDIA QUERIES ------- */
